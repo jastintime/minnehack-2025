@@ -3,7 +3,6 @@ import * as L from "https://unpkg.com/leaflet/dist/leaflet-src.esm.js";
 import { getLocations,} from "./network.js";
 import { showModalLocation } from "./dialog.js";
 
-const minneapolis = [44.986656, -93.258133];
 const oldMap = `https://mapwarper.net/maps/tile/89429/{z}/{x}/{y}.png`;
 const osm = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 const osmAttr = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
@@ -24,10 +23,13 @@ const map = L.map('map', {
    center: [44.973368,-93.159883],
    zoom: 11,
    maxZoom: 15,
-   scrollWheelZoom: false,
-   maxBounds: [[44.0, -94.5],[46.0, -92.0]],
+   scrollWheelZoom: true,
+   maxBounds: [
+    [5.499550, -167.276413], //Southwest
+    [83.162102, -52.233040]  //Northeast
+],
    maxBoundsViscosity: .7
-});
+})
 
 // // // TODO: these cords don't work, and i don't wanna spend 30min goosechasing how to line em up perfectly 
 // const map = L.map('map').setView([45.01323589435436, -93.31595003819945], 13);
@@ -47,16 +49,29 @@ const map = L.map('map', {
 // // Create a map and center it on minneapolis
 // const map = L.map('map').setView(minneapolis, 13);
 
-L.tileLayer(satellite, {
+var osmLayer = L.tileLayer(satellite, {
    maxZoom: 19,
    attribution: '&copy; CNES, Distribution Airbus DS, © Airbus DS, © PlanetObserver (Contains Copernicus Data) | &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
    ext: 'jpg'
 }).addTo(map);
 
 // Add tiles
-L.tileLayer(oldMap, {
+var oldLayer = L.tileLayer(oldMap, {
    maxZoom: 19,
 }).addTo(map);
+
+var baseMaps = {
+	"Current": osmLayer,
+}
+
+var overlayMap = {
+	"1957": oldLayer,
+}
+
+var layerControl = L.control.layers(baseMaps,overlayMap).addTo(map);
+
+
+
 
 
 async function showLocations() {
