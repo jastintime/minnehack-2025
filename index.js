@@ -20,7 +20,6 @@ function showLocation() {
 function addMarker(location, name, ) {
    const pin = L.marker(location).addTo(map);
    pin.bindPopup("Hello there!");
-   pin.on(`click`, () => dialog.showModal.bind(this));
 }
 
 addMarker(minneapolis, `This is minneapolis`);
