@@ -1,4 +1,4 @@
-{
+{ [
     "coordinates": [44.972379, -93.286280],
     "images": [
       {
@@ -16,5 +16,6 @@
         "source": "https://www.mnopedia.org/multimedia/basilica-st-mary-sixteenth-and-hennepin-minneapolis"
       }
     ]
-  }
+  ] 
+}
   
