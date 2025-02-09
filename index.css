@@ -16,7 +16,9 @@ body {
 }
 
 .close {
+   background: rgba(.5, .5, .5, .1);
    border: none;
+   border-radius: 50%;
    outline: none;
    max-height: 2em;
    max-width: 2em;
@@ -26,13 +28,20 @@ body {
    justify-content: center;
    align-items: center;
    cursor: pointer;
-   opacity: 50%;
+   /* opacity: 50%; */
    top: 1em;
    right: 1em;
 }
 
 .close::before {
    content: "x";
+   color: black;
+}
+
+.close:hover {
+   background: rgba(.5, .5, .5, .25);
+   transition: ease-in;
+   transition-duration: 100ms;
 }
 
 .modal {
@@ -76,4 +85,15 @@ body {
    min-width: 100vw;
    height: 100%;
    width: 100%;
+}
+
+swiper-container {
+   height: 100%;
+   width: 100%;
+}
+
+swiper-slider {
+   #title {
+      
+   }
 }
