@@ -68,7 +68,7 @@
     [44.972253, -93.281884],
     "images": [
       {
-        "location": "assets/davies_mortuary_now.jpg",
+        "location": "assets/davies_mortuary_now.png",
         "name": "Davie's Mortuary",
         "date": "2024",
         "description": "A historic building next to Minneapolis College",
@@ -208,7 +208,7 @@
       "source": "maps.google.com"
     },
     {
-      "location": "assets/womans_club_1974.png",
+      "location": "assets/womans_club_1974.jpg",
       "name": "Womens Club",
       "date": "1974",
       "descriptions": "The womens club, a club founded by prominent women in the city",
