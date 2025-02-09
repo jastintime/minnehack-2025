@@ -23,8 +23,9 @@ var customIcon = L.icon({
 const map = L.map('map', {
    center: [44.973368,-93.159883],
    zoom: 11,
+   // minZoom: 10,
    maxZoom: 15,
-   scrollWheelZoom: false,
+   scrollWheelZoom: true,
    maxBounds: [[44.0, -94.5],[46.0, -92.0]],
    maxBoundsViscosity: .7
 });
