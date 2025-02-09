@@ -26,19 +26,19 @@
     ,
     "images": [
       {
+        "location": "assets/Swinford_Townhouses_now.jpg",
+        "name": "Swinford Townhouses",
+        "description": "The townhouses still exist but they now have a highway running in front of as opposed to a historical neighborhood",
+        "date": "2024",
+        "source": "https://www2.minneapolismn.gov/resident-services/property-housing/preservation/landmarks/alphabetical/swinford-townhouses-apartment/"
+      },
+      {
         "location": "assets/Swinford_Townhouses_1974.jpeg",
         "name": "Swinford Townhouses",
         "description": "A Second Empire building built in 1886",
         "date": "1974",
         "source": "https://www2.minneapolismn.gov/resident-services/property-housi/preservation/landmarks/alphabetical/swinford-townhouses-apartment/"
   
-      },
-      {
-        "location": "assets/Swinford_Townhouses_now.jpg",
-        "name": "Swinford Townhouses",
-        "description": "The townhouses still exist but they now have a highway running in front of as opposed to a historical neighborhood",
-        "date": "2024",
-        "source": "https://www2.minneapolismn.gov/resident-services/property-housing/preservation/landmarks/alphabetical/swinford-townhouses-apartment/"
       }
       ]
   },
@@ -204,14 +204,14 @@
       "location": "assets/womans_club_now.png",
       "name": "Womens Club",
       "date": "2024",
-      "descriptions": "The womens club, a club founded by prominent women in the city",
+      "description": "The womens club, a club founded by prominent women in the city",
       "source": "maps.google.com"
     },
     {
       "location": "assets/womans_club_1974.jpg",
       "name": "Womens Club",
       "date": "1974",
-      "descriptions": "The womens club, a club founded by prominent women in the city",
+      "description": "The womens club, a club founded by prominent women in the city",
       "source": "mnhs.org"
     }
     ]
