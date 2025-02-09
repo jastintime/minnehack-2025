@@ -1,5 +1,5 @@
 const dialog = document.querySelector(`#location`);
-const dialogCloseButton = document.querySelector(`.close`);
+const dialogCloseButton = document.querySelector(`#location-close`);
 dialogCloseButton.addEventListener(`click`, () => dialog.close());
 
 export function showModalLocation(location) {
@@ -8,9 +8,13 @@ export function showModalLocation(location) {
    const images = location.images;
    const imageElements = images.map(img =>
    `<swiper-slide class="image-container">
+            <span class="title-desc">
             <h1 class="title">${img.name}</h1>
+            <span class="description">${img.description}</span>
+            <span class="date">${img.date}</span>
+            </span>
             <img src="http://localhost:8080/${img.location}">
-            <p class="description">${img.description}</p>
+            
    </swiper-slide>`);
    carousel.outerHTML = `<swiper-container id="carousel" navigation="true">
    ${imageElements.join('')}

@@ -9,6 +9,7 @@ body {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   --swiper-theme-color: white !important;
 }
 
 * {
@@ -28,6 +29,12 @@ body > nav {
 }
 
 .close {
+   position: absolute;
+   top: 1em;
+   right: 1em;
+}
+
+.close {
    background: rgba(.5, .5, .5, .1);
    border: none;
    border-radius: 50%;
@@ -35,14 +42,13 @@ body > nav {
    max-height: 2em;
    max-width: 2em;
    font-size: 1.5em;
-   position: absolute;
+
    display: inline-flex;
    justify-content: center;
    align-items: center;
    cursor: pointer;
    /* opacity: 50%; */
-   top: 1em;
-   right: 1em;
+
    z-index: 1;
 }
 
@@ -75,7 +81,13 @@ body > nav {
    border: none;
 }
 
+.swiper-button-prev > svg {
+   fill: white;
+   box-shadow: 3px;
+}
+
 #location {
+   padding: 0;
 
    .card {
       display: flex;
@@ -102,6 +114,7 @@ body > nav {
 swiper-container {
    height: 100%;
    width: 100%;
+   --swiper-theme-color: white !important;
 }
 
 swiper-slide {
@@ -111,6 +124,17 @@ swiper-slide {
    flex-direction: column;
    /* justify-content: center; */
    align-items: center;
+
+   .title-desc {
+      width: 100%;
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0;
+      margin: 0;
+   }
+
    /* img {
       position: absolute;
       top: 0px;
