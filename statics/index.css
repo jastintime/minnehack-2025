@@ -1,12 +1,5 @@
-@font-face {
-   font-family: 'OPTILawrence';
-   src:url('OPTILawrence.ttf.woff') format('woff'),
-       url('OPTILawrence.ttf.svg#OPTILawrence') format('svg'),
-       url('OPTILawrence.ttf.eot'),
-       url('OPTILawrence.ttf.eot?#iefix') format('embedded-opentype'); 
-   font-weight: normal;
-   font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,500;1,500&display=swap');
+
 
 html,
 body {
@@ -23,22 +16,27 @@ body {
 }
 
 h1 {
-   font-size: 1.5em;
+   font-size: 1.75em;
 }
 
 * {
    box-sizing: border-box;
 }
 
-nav{
-   font-family: "OPTILawrence";
-   background-color: rgba( 55,	142,	152);
+nav {
+   font-family: "Noto Serif Display", serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-variation-settings:
+      "wdth" 100;
+   background-color: rgba(55, 142, 152);
+   text-decoration: underline;
    color: seashell
-
 }
 
 
-body > nav {
+body>nav {
    width: 100%;
    max-height: 5em;
    padding-inline: 1em;
@@ -111,7 +109,7 @@ body > nav {
    border: none;
 }
 
-.swiper-button-prev > svg {
+.swiper-button-prev>svg {
    fill: white;
    box-shadow: 3px;
 }
@@ -128,8 +126,8 @@ body > nav {
 
    img {
       /* JASON ADDED THIS ONE!*/
-      max-width:100%;
-      max-height:100%;
+      max-width: 100%;
+      max-height: 100%;
       min-width: 100px;
       min-height: 100px;
       margin: 0;
@@ -174,7 +172,7 @@ swiper-slide {
       justify-content: space-around;
       padding: 0;
       margin: 0;
-      background-image: linear-gradient(rgba(0,0,0,0.33), 75%, rgba(0,0,0,0));
+      background-image: linear-gradient(rgba(0, 0, 0, 0.33), 75%, rgba(0, 0, 0, 0));
    }
 
    /* img {
