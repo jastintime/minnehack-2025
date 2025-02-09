@@ -4,7 +4,7 @@ import "github.com/gin-gonic/gin"
 import  "net/http"
 
 type image struct {
-	Location string `json:""`
+	Location string `json:"location"`
 	Name string `json:"name"`
 	Date string `json:"date"`
 	Description string `json:"description"`
@@ -15,7 +15,7 @@ type image struct {
 type location struct {
 	//lattiude first, longtitude first
 	Coordinate [2]float64 `json:"coordinates"`
-	Images []image `json:images`
+	Images []image `json:"images"`
 
 }
 
