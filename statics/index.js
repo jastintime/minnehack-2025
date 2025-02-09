@@ -56,6 +56,8 @@ var osmLayer = L.tileLayer(satellite, {
 // Add tiles
 var oldLayer = L.tileLayer(oldMap, {
    maxZoom: 19,
+   attribution: '&copy; Regents of the University of Minnesota | &copy; <a href="https://apps.lib.umn.edu/mhapo/" target="_blank">MHAPO</a> &copy; <a href="https://apps.lib.umn.edu/mhapo/" target="_blank">UMN-MHAPO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+
 }).addTo(map);
 
 var baseMaps = {
