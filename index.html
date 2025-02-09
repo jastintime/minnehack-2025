@@ -15,13 +15,24 @@
 </head>
 
 <body>
-   <dialog id="location" class="no-margin-border modal">
-      <button class="close no-margin-border" style="height: 100%; width: 100%;" type="button">
-         <!-- <img class="" src="./assets/x.svg"> -->
-      </button>
-      <swiper-container id="carousel" navigation="true">
-       </swiper-container>
+   <nav>
+         <h1>MinneHistory!</h1>
+         <h1 id="about-button">About</h1>
+   </nav>
+   <dialog id="about" class="no-margin-border modal">
+      <h1>MinneHistory!</h1>
+      <p>An interactive view of history!</p>
+      <p>This is a proof-of-concept history viewer of minneapolis!</p>
+      <button id="about-close" class="close no-margin-border" style="height: 100%; width: 100%;" type="button"></button>
+   </dialog>
 
+   <dialog id="location" class="no-margin-border modal">
+
+      <!-- <img class="" src="./assets/x.svg"> -->
+
+      <swiper-container id="carousel" navigation="true">
+      </swiper-container>
+      <button class="close no-margin-border" style="height: 100%; width: 100%;" type="button"></button>
    </dialog>
    <div id="map"></div>
 </body>

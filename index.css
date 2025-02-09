@@ -15,6 +15,18 @@ body {
    box-sizing: border-box;
 }
 
+body > nav {
+   width: 100%;
+   padding-inline: 1em;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+   h1 {
+      cursor: pointer;
+   }
+}
+
 .close {
    background: rgba(.5, .5, .5, .1);
    border: none;
@@ -31,6 +43,7 @@ body {
    /* opacity: 50%; */
    top: 1em;
    right: 1em;
+   z-index: 1;
 }
 
 .close::before {
@@ -45,10 +58,16 @@ body {
 }
 
 .modal {
+   border-radius: 0.25em;
    position: fixed;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   height: 75%;
+   max-height: 75%;
+   width: 75%;
+   max-width: 75%;
+   overflow: hidden;
 }
 
 .no-margin-border {
@@ -57,13 +76,6 @@ body {
 }
 
 #location {
-   
-   border-radius: 0.25em;
-   height: 75%;
-   max-height: 75%;
-   width: 75%;
-   max-width: 75%;
-   overflow: hidden;
 
    .card {
       display: flex;
@@ -93,21 +105,21 @@ swiper-container {
 }
 
 swiper-slide {
-   min-height: 100%;
+   min-height: 1000px;
    min-width: 100%;
    display: flex;
    flex-direction: column;
    /* justify-content: center; */
    align-items: center;
-   img {
+   /* img {
       position: absolute;
       top: 0px;
       left: 0px;
       height: 100%;
       width: 100%;
-   }
+   } */
 
-   .title {
+   /* .title {
       display: inline-flex;
       flex-direction: column;
       align-items: center;
@@ -116,9 +128,44 @@ swiper-slide {
       padding-top: 1em;
       padding-bottom: 1em;
       color: white;
-   }
+   } */
 
-   .description {
+   /* .description {
       justify-self: flex-end;
-   }
+   } */
 }
+
+/*  */
+
+/* .image-container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   background-color: #f0f0f0;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+ 
+ .image-container img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+   border-radius: 5px 5px 0 0;
+ }
+ 
+ .title {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background-color: rgba(0,0,0,0.5);
+   color: white;
+   padding: 5px 10px;
+   border-radius: 5px;
+ }
+ 
+ .description {
+   padding: 10px;
+   text-align: center;
+ } */
