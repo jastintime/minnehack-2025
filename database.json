@@ -1,21 +1,112 @@
-{ [
-    "coordinates": [44.972379, -93.286280],
+[
+  {
+    "coordinates": [
+      44.97032,
+      -93.27591
+    ],
+    "images": [
+      {
+        "location": "assets/filename.jpg",
+        "name": "Eitel Appartments",
+        "description": "asdsakdasdk",
+        "date": "2022",
+        "source": "https://google.com/maps"
+      },
+      {
+        "location": "assets/filename.jpg",
+        "name": "Davie's Mortuary",
+        "description": "asdsakdasdk",
+        "date": "1970",
+        "source": "https://digitalcollections.hclib.org/digital/collection/CPED/id/32459/rec/55"
+      }
+    ]
+  },
+  {
+    "coordinates": [
+      44.97032,
+      -93.27591
+    ],
+    "images": [
+      {
+        "location": "assets/filename.jpg",
+        "name": "Eitel Appartments",
+        "description": "asdsakdasdk",
+        "date": "2022",
+        "source": "https://google.com/maps"
+      },
+      {
+        "location": "assets/filename.jpg",
+        "name": "Eitel Hospital",
+        "description": "asdsakdasdk",
+        "date": "1980",
+        "source": "https://digitalcollections.hclib.org/digital/collection/CPED/id/13444/rec/22"
+      }
+    ]
+  },
+  {
+    "coordinates": [
+      44.97032,
+      -93.27591
+    ],
+    "images": [
+      {
+        "location": "assets/filename.jpg",
+        "name": "Nicollet Tower",
+        "description": "asdsakdasdk",
+        "date": "2022",
+        "source": "https://google.com/maps"
+      },
+      {
+        "location": "assets/filename.jpg",
+        "name": "Ichiban Resturant",
+        "description": "asdsakdasdk",
+        "date": "1980",
+        "source": "https://digitalcollections.hclib.org/digital/collection/CPED/id/13502/rec/426"
+      }
+    ]
+  },
+  {
+    "coordinates": [
+      44.97032,
+      -93.27591
+    ],
+    "images": [
+      {
+        "location": "assets/filename.jpg",
+        "name": "Minneapolis Convention Center",
+        "description": "asdsakdasdk",
+        "date": "2022",
+        "source": "https://google.com/maps"
+      },
+      {
+        "location": "assets/filename.jpg",
+        "name": "Centennial Cafe",
+        "description": "asdsakdasdk",
+        "date": "1930",
+        "source": "https://digitalcollections.hclib.org/digital/collection/CPED/id/14277/rec/457"
+      }
+    ]
+  },
+  {
+    "coordinates": [
+      44.972379,
+      -93.28628
+    ],
     "images": [
       {
         "location": "assets/loring_park/st_mary_basilica_now.png",
         "name": "Basilica of Saint Mary",
         "description": "asdsakdasdk",
-        "date":"2023",
+        "date": "2023",
         "source": "https://google.com/maps"
       },
       {
         "location": "assets/loring_park/st_mary_basilica_1936.jpeg",
         "name": "Basilica of Saint Mary",
         "description": "asdsakdasdk",
-        "date":"1925",
+        "date": "1925",
         "source": "https://www.mnopedia.org/multimedia/basilica-st-mary-sixteenth-and-hennepin-minneapolis"
       }
     ]
-  ] 
-}
-  
+  }
+]
