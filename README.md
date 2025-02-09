@@ -12,9 +12,11 @@ Jason Guerra
 
 *"To know the future, you must understand the past."*
 
-Over the past decade, recognizing historical value in how communities have been represented has been essential to moving forward and changing for the better. By getting a better idea of how our cities and neighborhoods *used* to be structured, we can have a fuller perspective on the places we live in, and take pride in building the future we want to see in future generations! For this, we have a solution close to home: **MinneHistory**.
+Over the past decade, recognizing historical value in how communities have been represented has been essential to moving forward and changing our day-to-day lives for the better. By getting a stronger idea of how our cities and neighborhoods *used* to be structured, we can have a fuller perspective on the places we live in, and take pride in building the future we want to see in future generations! For this, we have a solution close to home: **MinneHistory**.
 
-MinneHistory takes a modern-day GIS display and shows a stictched collection of *30* different maps from the 50s! With the map overlay, you can see prime areas where there have been *huge* transitions in urban planning and demographics of the different areas of Minneapolis. Explore what life *was*, and imagine what life could *be*.
+MinneHistory takes a modern-day GIS display and shows a stitched collection of *30* different maps from the 50s! With the map overlay, you can see images of **prime** areas where there have been *huge* transitions in urban planning and demographics of the different areas of Minneapolis. 
+
+### With MinneHistory, you can explore what life *was*, and imagine what life could *be*.
 
 # Technical Implementation
 
@@ -27,3 +29,4 @@ Our project is composed of a golang backend with pure javascript and css on the 
 * Stadiamaps for providing the satelite images of the present https://docs.stadiamaps.com/map-styles/alidade-satellite/
 * Thanks to the go team for developing a fun to use programming language https://go.dev/ as well as the gin team for their router https://gin-gonic.com/
 * Leaflet for providing a library to work with interative maps https://leafletjs.com/
+
