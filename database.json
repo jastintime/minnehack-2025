@@ -2,14 +2,14 @@
     "coordinates": [44.972379, -93.286280],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/st_mary_basilica_now.png",
         "name": "Basilica of Saint Mary",
         "description": "asdsakdasdk",
         "date":"2023",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/st_mary_basilica_1936.jpeg",
         "name": "Basilica of Saint Mary",
         "description": "asdsakdasdk",
         "date":"1925",
