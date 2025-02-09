@@ -123,14 +123,14 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/Ichiban_Restaurant_now.png",
         "name": "Nicollet Tower",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/Ichiban_Restaurant_1930.jpg",
         "name": "Ichiban Resturant",
         "description": "asdsakdasdk",
         "date": "1980",
