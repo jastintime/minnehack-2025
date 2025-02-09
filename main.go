@@ -24,10 +24,8 @@ type image struct {
 
 
 type location struct {
-//	lat float64 `json:"lattitude"`
-//	long float64 `json:"longtitude"`
-	Coordinate [2]float64 `json:"coordinates"`
 	//lattiude first, longtitude first
+	Coordinate [2]float64 `json:"coordinates"`
 	Images []image `json:images`
 
 }
@@ -40,7 +38,6 @@ var angry_women = image{Location: "assets/angry_women.jpg", Name: "Angry Women",
 
 
 func getLocations (c *gin.Context) {
-//	myLocations := location{lat: 44.9866, long: -93.2581, Images: []image{smiling_guy}}
 	myLocations := []location{ 
 		{Coordinate: [2]float64{44.9866, -93.2581}, Images: []image{smiling_guy,angry_women}},
 		{Coordinate: [2]float64{40.9866, -93.2581}, Images: []image{smiling_guy}},
