@@ -1,0 +1,33 @@
+[
+  {
+    "coordinates": [44.9866, -93.2581],
+    "images": [
+      {
+        "location": "assets/smiling_guy.jpg",
+        "name": "Smiling Guy",
+        "date": "9/11/2001",
+        "description": "A guy smiling",
+        "source": "Your mom"
+      },
+      {
+        "location": "assets/angry_women.jpg",
+        "name": "Angry Women",
+        "date": "10/17/1972",
+        "description": "A women angry",
+        "source": "Wikipedia"
+      }
+    ]
+  },
+  {
+    "coordinates": [40.9866, -93.2581],
+    "images": [
+      {
+        "location": "assets/smiling_guy.jpg",
+        "name": "Smiling Guy",
+        "date": "9/11/2001",
+        "description": "A guy smiling",
+        "source": "Your mom"
+      }
+    ]
+  }
+]
