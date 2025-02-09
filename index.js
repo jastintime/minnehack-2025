@@ -4,8 +4,8 @@ const minneapolis = [44.986656, -93.258133];
 // Create a map and center it on minneapolis
 const map = L.map('map').setView(minneapolis, 13);
 const dialog = document.querySelector(`dialog`)
- console.log(dialog)
-// dialog.showModal();
+const dialogCloseButton = document.querySelector(`.close`);
+dialogCloseButton.addEventListener(`click`, () => dialog.close())
 
 // Add tiles
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
