@@ -8,6 +8,7 @@ import "encoding/json"
 import "log"
 
 func main() {
+	//gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 	r.Use(cors.Default())
 	//serve static files in /images as /assets/$FILE_NAME
@@ -22,6 +23,5 @@ func main() {
 	}
 	r.StaticFile("api/locations", "database.json")
 	//	r.GET("api/locations", getLocations)
-	r.Run()
+	r.Run(":8080")
 }
-
