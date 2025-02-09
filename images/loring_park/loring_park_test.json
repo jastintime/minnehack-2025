@@ -1,0 +1,20 @@
+{
+    "coordinates": [44.972379, -93.286280],
+    "images": [
+      {
+        "location": "assets/filename.jpg",
+        "name": "Basilica of Saint Mary",
+        "description": "asdsakdasdk",
+        "date":"2023",
+        "source": "https://google.com/maps"
+      },
+      {
+        "location": "assets/filename.jpg",
+        "name": "Basilica of Saint Mary",
+        "description": "asdsakdasdk",
+        "date":"1925",
+        "source": "https://www.mnopedia.org/multimedia/basilica-st-mary-sixteenth-and-hennepin-minneapolis"
+      }
+    ]
+  }
+  
