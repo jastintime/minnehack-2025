@@ -4,7 +4,7 @@ import { getLocations,} from "./network.js";
 import { showModalLocation } from "./dialog.js";
 
 const minneapolis = [44.986656, -93.258133];
-const oldMap = `https://mapwarper.net/maps/tile/89404/{z}/{x}/{y}.png`;
+const oldMap = `https://mapwarper.net/maps/tile/89429/{z}/{x}/{y}.png`;
 const osm = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 const osmAttr = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 const satellite = `https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.{ext}`;
