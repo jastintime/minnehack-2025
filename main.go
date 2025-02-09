@@ -6,7 +6,6 @@ import "github.com/gin-gonic/contrib/static"
 import "os"
 import "encoding/json"
 import "log"
-import "net/http"
 
 func main() {
 	r := gin.Default()
@@ -18,7 +17,6 @@ func main() {
 		panic(err)
 	}
 	r.Use(static.Serve("/", static.LocalFile("./statics", true)))
-	r.Use(CorsMiddleware())
 	if ok := json.Valid([]byte(content)); ok == false {
 		log.Fatalf("database.json is not a valid json file")
 	}
@@ -27,18 +25,3 @@ func main() {
 	r.Run()
 }
 
-func CorsMiddleware() gin.HandlerFunc {
-	return func(c *gin.Context) {
-		c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
-		c.Writer.Header().Set("Access-Control-Allow-Credentials", "true")
-		c.Writer.Header().Set("Access-Control-Allow-Headers", "Content-Type, Content-Length, Accept-Encoding, Authorization")
-		c.Writer.Header().Set("Access-Control-Allow-Methods", "OPTIONS, GET, POST, PATCH, DELETE, PUT")
-
-		if c.Request.Method == "OPTIONS" {
-			c.AbortWithStatus(http.StatusNoContent)
-			return
-		}
-
-		c.Next()
-	}
-}
