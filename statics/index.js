@@ -8,6 +8,15 @@ const oldMap = `https://mapwarper.net/maps/tile/89404/{z}/{x}/{y}.png`;
 const osm = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 const osmAttr = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 const satellite = `https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.{ext}`;
+
+var customIcon = L.icon({
+   iconUrl: './assets/custom_pin.png',
+
+   iconSize:     [20, 28], // size of the icon
+   iconAnchor:   [22, 25], // point of the icon which will correspond to marker's location
+
+});
+
 // Create a map and center it on minneapolis
 const map = L.map('map').setView(minneapolis, 13);
 
@@ -32,7 +41,7 @@ async function showLocations() {
 }
 
 function addMarker(location, context)  {
-   const pin = L.marker(location).addTo(map);
+   const pin = L.marker(location , {icon: customIcon}).addTo(map);
    pin.on(`click`, showModalLocation.bind(window, context))
 }
 
