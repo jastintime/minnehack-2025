@@ -1,0 +1,19 @@
+name: year, source, cords
+
+centennial cafe: 1930, https://digitalcollections.hclib.org/digital/collection/CPED/id/14277/rec/457, 44.972379, -93.286280
+
+Ichiban Restaurant: 1980, https://digitalcollections.hclib.org/digital/collection/CPED/id/13502/rec/426, 44.969816, -93.277765
+
+Eitel Hospital: 1980, https://digitalcollections.hclib.org/digital/collection/CPED/id/13444/rec/22, 44.969633, -93.281893
+
+Davie's Mortuary: 1970, https://digitalcollections.hclib.org/digital/collection/CPED/id/32459/rec/55, 44.972495, -93.282061
+
+Loring Park Ole Bull statue, 1902 1939, https://itoldya420.getarchive.net/amp/media/ole-bull-monument-loring-park-minneapolis-minn-6c1b5a, 44.971822, -93.283966
+
+Basilica of Saint Mary: 1925, https://www.mnopedia.org/multimedia/basilica-st-mary-sixteenth-and-hennepin-minneapolis, 44.972379, -93.286280
+
+Norwegian Flag Loring Park: 1939, https://digitalcollections.hclib.org/digital/collection/MplsPhotos/id/45308/rec/10, 44.971868, -93.284135
+
+Losing Park Pavilion: 1976, https://digitalcollections.hclib.org/digital/collection/CPED/id/16131/rec/9, 44.968833, -93.282945
+
+Woman's Club: 1974, https://digitalcollections.hclib.org/digital/collection/CPED/id/16131/rec/9 

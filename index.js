@@ -33,4 +33,4 @@ function addMarker(location, context)  {
    pin.on(`click`, showModalLocation.bind(window, context))
 }
 
-showLocations();
+// showLocations();
