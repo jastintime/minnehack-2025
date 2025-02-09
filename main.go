@@ -2,6 +2,7 @@ package main
 
 import "github.com/gin-gonic/gin"
 import "github.com/gin-contrib/cors"
+import "github.com/gin-gonic/contrib/static"
 import "os"
 import "encoding/json"
 import "log"
@@ -16,6 +17,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	r.Use(static.Serve("/", static.LocalFile("./statics", true)))
 	r.Use(CorsMiddleware())
 	if ok := json.Valid([]byte(content)); ok == false {
 		log.Fatalf("database.json is not a valid json file")
