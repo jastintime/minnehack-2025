@@ -22,12 +22,10 @@ var customIcon = L.icon({
 const map = L.map('map', {
    center: [44.973368,-93.159883],
    zoom: 11,
+   // minZoom: 10,
    maxZoom: 15,
    scrollWheelZoom: true,
-   maxBounds: [
-    [5.499550, -167.276413], //Southwest
-    [83.162102, -52.233040]  //Northeast
-],
+   maxBounds: [[44.0, -94.5],[46.0, -92.0]],
    maxBoundsViscosity: .7
 })
 
