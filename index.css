@@ -20,6 +20,13 @@ h1 {
    box-sizing: border-box;
 }
 
+nav{
+
+   background-color: rgba( 55,	142,	152);
+   color: seashell
+
+}
+
 
 body > nav {
    width: 100%;
