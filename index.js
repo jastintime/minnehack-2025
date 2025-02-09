@@ -18,6 +18,9 @@ L.tileLayer(satellite, {
    ext: 'jpg'
 }).addTo(map);
 
+// TODO: also, there is an implement for this that is like wayyyyyy cleaner looking here
+// https://www.waldrn.com/apps/mspbuildingmap/index.html
+
 // this code will stop the user from dragging the map outside the bounds of minneapolis
 // it comes from here: https://stackoverflow.com/questions/25741532/disable-drag-once-attained-maximum-bounds-in-leaflet
 // tysm artyom!
