@@ -6,14 +6,21 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/norweigan_flag_loring_park_now.jpg",
         "name": "Loring Community Arts Center",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/loring_park_pavilon_1906.jpg",
+        "name": "Loring Park Pavillion",
+        "description": "asdsakdasdk",
+        "date": "1936",
+        "source": "NEED SOURCE"
+      },
+      {
+        "location": "assets/loring_park/loring_park_pavilon_1976",
         "name": "Loring Park Pavillion",
         "description": "asdsakdasdk",
         "date": "1976",
@@ -28,14 +35,14 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/norweigan_flag_loring_park_now.jpg",
         "name": "Loring Park Dog Park",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/norweigan_flag_loring_park_1939.jpg",
         "name": "Floral Norwegian Flag Arrangement",
         "description": "asdsakdasdk",
         "date": "1939",
@@ -50,21 +57,14 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/loring_park_ole_bull_now.jpg",
         "name": "Loring Park Ole Bull statue",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
-        "name": "Loring Park Ole Bull statue",
-        "description": "asdsakdasdk",
-        "date": "1939",
-        "source": "https://google.com/maps"
-      },
-      {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/loring_park_ole_bull_1902.jpg",
         "name": "Loring Park Ole Bull statue",
         "description": "asdsakdasdk",
         "date": "1902",
@@ -79,14 +79,14 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/davies_mortuary_now.png",
         "name": "Wells Family College Center",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/davies_mortuary_1970.jpg",
         "name": "Davie's Mortuary",
         "description": "asdsakdasdk",
         "date": "1970",
@@ -101,14 +101,14 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/eitel_hospital_now.jpg",
         "name": "Eitel Appartments",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/eitel_hospital_1980.jpg",
         "name": "Eitel Hospital",
         "description": "asdsakdasdk",
         "date": "1980",
@@ -130,7 +130,7 @@
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/loring_park/Ichiban_Restaurant_1930.jpg",
+        "location": "assets/loring_park/Ichiban_Restaurant_1980.jpg",
         "name": "Ichiban Resturant",
         "description": "asdsakdasdk",
         "date": "1980",
@@ -145,14 +145,21 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/centennial_cafe_now.png",
         "name": "Minneapolis Convention Center",
         "description": "asdsakdasdk",
         "date": "2022",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+	"location": "assets/loring_park/convention_center_construction_1988.jpg",
+	"name": "Minneapolis Convention Center constructions",
+	"description": "a",
+	"data": "1988",
+	"source": "minneapolismn.gov"
+      },
+      {
+        "location": "assets/loring_park/centennial_cafe_1930.jpg",
         "name": "Centennial Cafe",
         "description": "asdsakdasdk",
         "date": "1930",
@@ -167,17 +174,17 @@
     ],
     "images": [
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/st_mary_basilica_now",
         "name": "Basilica of Saint Mary",
         "description": "asdsakdasdk",
         "date": "2023",
         "source": "https://google.com/maps"
       },
       {
-        "location": "assets/filename.jpg",
+        "location": "assets/loring_park/st_mary_basilica_1936.jpeg",
         "name": "Basilica of Saint Mary",
         "description": "asdsakdasdk",
-        "date": "1925",
+        "date": "1936",
         "source": "https://www.mnopedia.org/multimedia/basilica-st-mary-sixteenth-and-hennepin-minneapolis"
       }
     ]
