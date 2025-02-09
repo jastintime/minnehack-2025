@@ -12,12 +12,17 @@ body {
    --swiper-theme-color: white !important;
 }
 
+h1 {
+   font-size: 2em;
+}
+
 * {
    box-sizing: border-box;
 }
 
 body > nav {
    width: 100%;
+   max-height: 5em;
    padding-inline: 1em;
    display: flex;
    flex-direction: row;
@@ -105,8 +110,9 @@ body > nav {
 
 #map {
    margin: 0;
-   min-height: 100vh;
+   min-height: 90vh;
    min-width: 100vw;
+   flex-grow: 1;
    height: 100%;
    width: 100%;
 }
