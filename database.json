@@ -1,0 +1,221 @@
+[
+  {
+    "coordinates": 
+	    [44.969801, -93.277928]
+    ,
+    "images": [
+      {
+        "location": "assets/Ichiban_Restaurant_now.png",
+        "name": "Nicollet Towers",
+        "description": "Section 8 property with two high-rise towers and two low-rise town home buildings",
+        "date": "2024",
+        "source": "maps.google.com"
+      },
+      {
+        "location": "assets/Ichiban_Restaurant_1980.jpg",
+        "name": "Ichiban Restaurant",
+        "description": "A japanese restaurant that use to exist in downtown Minneapolis",
+        "date": "1980",
+        "source": "https://www.startribune.com/ichiban-in-downtown-minneapolis-closing-at-end-of-month/387267061"
+      }
+    ]
+  },
+  {
+    "coordinates":
+    [44.974911, -93.282140]
+    ,
+    "images": [
+      {
+        "location": "assets/Swinford_Townhouses_1974.jpeg",
+        "name": "Swinford Townhouses",
+        "description": "A Second Empire building built in 1886",
+        "date": "1974",
+        "source": "https://www2.minneapolismn.gov/resident-services/property-housi/preservation/landmarks/alphabetical/swinford-townhouses-apartment/"
+  
+      },
+      {
+        "location": "assets/Swinford_Townhouses_now.jpg",
+        "name": "Swinford Townhouses",
+        "description": "The townhouses still exist but they now have a highway running in front of as opposed to a historical neighborhood",
+        "date": "2024",
+        "source": "https://www2.minneapolismn.gov/resident-services/property-housing/preservation/landmarks/alphabetical/swinford-townhouses-apartment/"
+      }
+      ]
+  },
+  {
+    "coordinates":
+    [44.969800, -93.274276],
+    "images": [
+      {
+        "location": "assets/centennial_cafe_now.png",
+        "name": "Minneapolis Convention Center",
+        "date": "2024",
+        "description": "A Convention center near downtown minneapolis",
+        "source": "maps.google.com"
+      },
+      {
+        "location": "assets/centennial_cafe_1930.jpg",
+        "name": "Centennial Cafe",
+        "date": "1930",
+        "description": "A local cafe that existed prior to the construction of I-94",
+        "source": "https://www.mnhs.org/"
+      }
+      ]
+    
+  },
+  {
+    "coordinates":
+    [44.972253, -93.281884],
+    "images": [
+      {
+        "location": "assets/davies_mortuary_now.png",
+        "name": "Davie's Mortuary",
+        "date": "2024",
+        "description": "A historic building next to Minneapolis College",
+        "source": "maps.google.com"
+      },
+      {
+        "location": "assets/davies_mortuary_1970.jpg",
+        "name": "Davie's Mortuary",
+        "date": "1970",
+        "description": "Davie's Mortuary has survived all the attacks from surrounding urban renewal and the destruction of downtown",
+        "source": "mnhs.org"
+      }
+      ]
+  },
+  {
+    "coordinates":
+    [44.971944, -93.284158],
+    "images": [
+      {
+        "location": "assets/flag_now.png",
+        "name": "Dog park by Minneapolis College",
+        "date": "2025",
+        "description": "A park for dogs to go off leash",
+        "source": "maps.google.com"
+        
+      },
+      {
+        "location": "assets/flag_1939.jpg",
+        "name": "Norweigan Flag in Loring Park",
+        "date": "1939",
+        "description": "A well maintained flower garden depicting the norweigan flag",
+        "source": "mnhs.org"
+      }
+      ]
+    
+  },
+  {
+    "coordinates": 
+    [44.971830, -93.283986],
+    "images": [
+      {
+        "location": "assets/ole_bull_now.png",
+        "name": "Ole Bull statue",
+        "date": "2025",
+        "description": "A statue in loring park",
+        "source": "maps.google.com"
+      },
+      {
+        "location": "assets/ole_bull_1902.jpg",
+        "name": "Ole Bull statue",
+        "date": "1902",
+        "description": "Ole Bull statue in loring park",
+        "source": "mnhs.org"
+      }
+      ]
+  },
+  {
+    "coordinates":
+    [44.968947, -93.282916],
+    "images": [
+      {
+        "location": "assets/pavillion_now.png",
+        "name": "Loring Community Arts Center",
+        "date": "2025",
+        "description": "Arts center in Loring Park",
+        "source": "maps,google.com"
+      },
+      {
+        "location": "assets/pavillion_1976.jpg",
+        "name": "Loring Park Pavillion",
+        "date": "1976",
+        "description": "pavillion around the 70s",
+        "source":"mnhs.org"
+      },
+      {
+        "location": "assets/pavillion_1906.jpg",
+        "name": "Loring Park Pavillion",
+        "date": "1906",
+        "description": "Pavillion around",
+        "source": "mnhs.org"
+      }
+      ]
+  },
+  {
+    "coordinates":
+    [44.972427, -93.286206],
+    "images":
+    [
+      {
+        "location": "assets/st_mary_basilica_now.png",
+        "name": "St Mary's Basilica",
+        "date": "2024",
+        "description": "A historic church in downtown minneapolis near minneapolis college",
+        "source": "maps.google.com"
+      },
+      {
+        "location": "assets/st_mary_basilica_1936.jpeg",
+        "name": "St Mary's Basilica",
+        "date": "1936",
+        "description": "St marys basilicia prior to the highway",
+        "source": "mnhs.org"
+      }
+      ]
+  },
+  {
+    "coordinates": 
+    [44.972981, -93.238080],
+    "images":
+    [
+      {
+      "location": "assets/washington_ave_bridge_now.jpg",
+      "name": "Washington Ave Bridge",
+      "date": "2024",
+      "description": "Washington Ave bridge sporting UMN colors and branding",
+      "source": "https://photos.wikimapia.org/p/00/01/53/03/87_big.jpg"
+    },
+    {
+      "location": "assets/washington_ave_bridge_1891.jpg",
+      "name": "Washington Ave Bridge",
+      "date": "1891",
+      "description": "Washington Ave truss bridge over the missisipi river",
+      "source": "mnhs.org"
+    }
+    ]
+    
+  },
+  {
+    "coordinates":
+    [44.967574, -93.284834],
+    "images":
+    [
+    {
+      "location": "assets/womans_club_now.png",
+      "name": "Womens Club",
+      "date": "2024",
+      "descriptions": "The womens club, a club founded by prominent women in the city",
+      "source": "maps.google.com"
+    },
+    {
+      "location": "assets/womans_club_1974.jpg",
+      "name": "Womens Club",
+      "date": "1974",
+      "descriptions": "The womens club, a club founded by prominent women in the city",
+      "source": "mnhs.org"
+    }
+    ]
+  }
+  
+
+]
