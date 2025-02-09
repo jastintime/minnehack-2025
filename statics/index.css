@@ -13,12 +13,20 @@ body {
 }
 
 h1 {
-   font-size: 2em;
+   font-size: 1.5em;
 }
 
 * {
    box-sizing: border-box;
 }
+
+nav{
+
+   background-color: rgba( 55,	142,	152);
+   color: seashell
+
+}
+
 
 body > nav {
    width: 100%;
