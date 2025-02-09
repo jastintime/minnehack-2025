@@ -17,8 +17,35 @@ var customIcon = L.icon({
 
 });
 
-// Create a map and center it on minneapolis
-const map = L.map('map').setView(minneapolis, 13);
+// thank you for the rough params for what we needed to set for our map coords!
+// https://www.waldrn.com/apps/mspbuildingmap/index.html
+
+const map = L.map('map', {
+   center: [44.973368,-93.159883],
+   zoom: 11,
+   maxZoom: 15,
+   scrollWheelZoom: false,
+   maxBounds: [[44.0, -94.5],[46.0, -92.0]],
+   maxBoundsViscosity: .7
+});
+
+// // // TODO: these cords don't work, and i don't wanna spend 30min goosechasing how to line em up perfectly 
+// const map = L.map('map').setView([45.01323589435436, -93.31595003819945], 13);
+
+// // POSSIBLE BOUNDS CHECKING IMPLEMENT
+// // this code will stop the user from dragging the map outside the bounds of minneapolis
+// // it comes from here: https://stackoverflow.com/questions/25741532/disable-drag-once-attained-maximum-bounds-in-leaflet
+// // tysm artyom!
+// var bounds = L.latLngBounds([[44.986656, -93.258133], [44.95058896557884, -93.24742388864514]]);
+// map.setMaxBounds(bounds);
+// map.on('drag', function() {
+// 	map.panInsideBounds(bounds, { animate: false });
+// });
+
+
+
+// // Create a map and center it on minneapolis
+// const map = L.map('map').setView(minneapolis, 13);
 
 L.tileLayer(satellite, {
    maxZoom: 19,
