@@ -1,3 +1,13 @@
+@font-face {
+   font-family: 'OPTILawrence';
+   src:url('OPTILawrence.ttf.woff') format('woff'),
+       url('OPTILawrence.ttf.svg#OPTILawrence') format('svg'),
+       url('OPTILawrence.ttf.eot'),
+       url('OPTILawrence.ttf.eot?#iefix') format('embedded-opentype'); 
+   font-weight: normal;
+   font-style: normal;
+}
+
 html,
 body {
    margin: 0;
@@ -21,7 +31,7 @@ h1 {
 }
 
 nav{
-
+   font-family: "OPTILawrence";
    background-color: rgba( 55,	142,	152);
    color: seashell
 
@@ -36,6 +46,12 @@ body > nav {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+
+   /* img {
+      padding: 1em;
+      max-height: 2em;
+      height: 100%;
+   } */
 
    h1 {
       cursor: pointer;

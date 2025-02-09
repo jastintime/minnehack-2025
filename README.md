@@ -29,4 +29,5 @@ Our project is composed of a golang backend with pure javascript and css on the 
 * Stadiamaps for providing the satelite images of the present https://docs.stadiamaps.com/map-styles/alidade-satellite/
 * Thanks to the go team for developing a fun to use programming language https://go.dev/ as well as the gin team for their router https://gin-gonic.com/
 * Leaflet for providing a library to work with interative maps https://leafletjs.com/
+* Hennepin County Library's digital photo archives for providing many historical photos used in the project, along with relevant adresses and dates for each photo https://digitalcollections.hclib.org/digital/custom/topics 
 
