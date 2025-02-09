@@ -5,3 +5,4 @@ Members:
 Jackson Dempsey
 Duncan Murphy
 Bruk Kassie
+Jason Guerra
