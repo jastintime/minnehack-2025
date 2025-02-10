@@ -20,6 +20,10 @@ MinneHistory takes a modern-day GIS display and shows a stitched collection of *
 
 ### With MinneHistory, you can explore what life *was*, and imagine what life could *be*.
 
+# How to Run
+Pre-compiled binaries are not provided, running minnehistory requires the go compiler which can run the program using `go run .`,if you would like to run it outside of the development environment `go build` will build an executable which can run minnehistory as long as it can find database.json, images/, statics/ in its working directory.
+
+
 # Technical Implementation
 
 Our project is composed of a golang backend with pure javascript and css on the frontend. To build the historic aerial shot of Minneapolis we had to compose and edit over 30 aerial shots from the 50s to get them to align properly and match the current streets to stitch a large aerial shot of Minneapolis. We felt that building this historic aerial shot was important to show the most important change that has occured to the streets of  Minneapolis and it's urban form, the construction of I-94 and I-35W. These projects along with auto-centric infastructure led to a drastic change to the historic downtown and surrounding communites of Minneapolis. Our map is drawn by the open-source Javascript library Leaflet and all the data collection for different spots that have changed throughout Minneapollis was done by hand.
