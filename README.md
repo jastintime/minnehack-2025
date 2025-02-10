@@ -18,6 +18,8 @@ Over the past decade, recognizing historical value in how communities have been 
 
 MinneHistory takes a modern-day GIS display and shows a stitched collection of *30* different maps from the 50s! With the map overlay, you can see images of **prime** areas where there have been *huge* transitions in urban planning and demographics of the different areas of Minneapolis. 
 
+The stitched historical map of Minneapolis is interesting and has been provided under https://github.com/jastintime/minnehack-2025/releases/tag/images this contains the photoshop file of the different images stiched together, the rectangular cropped image used by the program and the most complete stitched image which we made.
+
 ### With MinneHistory, you can explore what life *was*, and imagine what life could *be*.
 
 # How to Run
