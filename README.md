@@ -9,6 +9,8 @@ Jason Guerra
 
 ## Minnehistory
 
+![An image showing minnehistory](img.png)
+
 
 *"To know the future, you must understand the past."*
 
